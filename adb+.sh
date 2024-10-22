@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Examples
 # ./adb+ version
 # ./adb+ install divar.apk
@@ -20,7 +19,8 @@ do
                 break
             fi
         done
+        sleep 5
     else
-      echo Somthing goes wrong!
+        echo "Something goes wrong!"
     fi
 done
